@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  
+  <style>
+    body{
+      background-color: hsl(217, 54%, 11%);
+      font-family: "outfit";
+      
+    }
+    h4{
+      font-size: 22px;
+      color: hsl(0, 0%, 100%);
+      font-weight: 600px;
+    }
+    h4:hover{
+      cursor:pointer;
+      color: hsl(178, 100%, 50%);
+    }
+    .container{
+      border: 1px solid none;
+      border-radius: 10px;
+      margin: auto;
+      width: 300px;
+      padding: 20px;
+      background-color: hsl(216, 50%, 16%);
+    }
+    .equilibrium{
+      border-radius: 10px;
+      margin: auto;
+      width: 300px;
+      height: 300px;
+    }
+    .equilibrium a:hover{
+      cursor: pointer;
+      background: hsl(178, 100%, 50%);
+    }
+    .first-para{
+      color: hsl(215, 15%, 53%);
+;
+      font-weight: 400px;
+      font-size: 1.4rem;
+    }
+    .duration{
+      display: flex;
+      
+    }
+    #ethe{
+      display: inline;
+      margin-left: .56em;  
+      font-size: 1.04em;
+      color:hsl(178, 100%, 50%);
+    }
+    .ether{
+      height: 18px;
+      margin-top: 1em;
+    }
+    .clock{
+      margin-left: 9em;
+      margin-top: 1em;
+      height: 18px;
+    }
+    #time{
+      display: inline;
+      font-size: 1.04em;
+      color:hsl(215, 15%, 53%);
+      margin-left: 1em;
+    }
+    .owner{
+      display: flex;
+      border-top: 0.6px solid hsl(215, 32%, 27%);
+      width: 80%;
+      margin: auto;
+      margin-top: 1em;
+      margin-right: 2.8em;
+      padding: 10px;
+    }
+    .avatar{
+      border: 1px solid hsl(0, 0%, 100%);
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      margin-top: 10px;
+    }
+    .last-para{
+      display: inline;
+      color:hsl(215, 15%, 53%);
+      margin: 20px;
+      
+      font-size: 1.2em;
+      line-height: 10px;
+    }
+    .jules{
+      text-decoration: none;
+      color: hsl(0, 0%, 100%);
+    }
+    .jules:hover{
+      color: hsl(178, 100%, 50%);
+    }
+    .attribution { font-size: 11px; text-align: center; color:hsl(0, 0%, 100%);}
+    .attribution .attribute { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="" class="first-img"><img class="equilibrium" src="image-equilibrium.jpg" alt="Equilibrium"></a>
+    <h4>Equilibrium #3429</h4>
+
+    <p class="first-para">Our Equilibrium collection promotes balance and calm.</p>
+    <div class="duration">
+      <img class="ether" src="icon-ethereum.svg" alt="Ethereum Icon"><p id="ethe">0.041 ETH</p>
+      <img class="clock" src="icon-clock.svg" alt="Clock Icon"><p id="time"> 3 days left</p>
+    </div>
+    
+    <div class="owner">
+      <img class="avatar" src="image-avatar.png" alt="Image"><p class="last-para">Creation of <a href="" class="jules">Jules Wyvern</a></p>
+    </div>
+    
+  </div>
+  <div class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="attribute">Frontend Mentor</a>. 
+    Coded by <a href="#" class="attribute">TheCephas</a>.</p>
+  </div>
+</body>
+</html>
