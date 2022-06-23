@@ -19,6 +19,7 @@
       font-size: 22px;
       color: hsl(0, 0%, 100%);
       font-weight: 600px;
+      cursor: pointer;
     }
     h4:hover{
       cursor:pointer;
@@ -50,7 +51,6 @@
     }
     .duration{
       display: flex;
-      
     }
     #ethe{
       display: inline;
@@ -63,15 +63,16 @@
       margin-top: 1em;
     }
     .clock{
-      margin-left: 9em;
-      margin-top: 1em;
-      height: 18px;
+      margin-left: 8.7em;
+      margin-top: .8em;
+      height: 20px;
     }
     #time{
       display: inline;
       font-size: 1.04em;
       color:hsl(215, 15%, 53%);
-      margin-left: 1em;
+      margin-left: .2em;
+      margin-top: 1em;
     }
     .owner{
       display: flex;
@@ -106,6 +107,86 @@
     }
     .attribution { font-size: 11px; text-align: center; color:hsl(0, 0%, 100%);}
     .attribution .attribute { color: hsl(228, 45%, 44%); }
+    @media screen and (max-width: 500px){
+      .container{
+      border: 1px solid none;
+      border-radius: 10px;
+      margin: auto;
+      width: 250px;
+      padding: 20px;
+      background-color: hsl(216, 50%, 16%);
+    }
+    .equilibrium{
+      border-radius: 10px;
+      margin: auto;
+      width: 250px;
+      height: 250px;
+    }
+    .equilibrium a:hover{
+      cursor: pointer;
+      background: hsl(178, 100%, 50%);
+    }
+    .first-para{
+      color: hsl(215, 15%, 53%);
+;
+      font-weight: 400px;
+      font-size: 1.2rem;
+    }
+    .duration{
+      display: flex;
+    }
+    #ethe{
+      
+      color:hsl(178, 100%, 50%);
+    }
+    .ether{
+      margin-top: .8em;
+    }
+    .clock{
+      margin-left: 5em;
+      margin-top: .8em;
+      height: 18px;
+    }
+    #time{
+      display: inline;
+      font-size: 1.04em;
+      color:hsl(215, 15%, 53%);
+      margin-left: .8em;
+    }
+    .owner{
+      display: flex;
+      border-top: 0.6px solid hsl(215, 32%, 27%);
+      width: 80%;
+      margin: auto;
+      margin-top: 1em;
+      margin-right: 2.8em;
+      padding: 5px;
+    }
+    .avatar{
+      border: 1px solid hsl(0, 0%, 100%);
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      margin-top: 10px;
+    }
+    .last-para{
+      
+      color:hsl(215, 15%, 53%);
+      margin: 20px;
+      
+      font-size: .9em;
+      line-height: 10px;
+    }
+    .jules{
+      text-decoration: none;
+      color: hsl(0, 0%, 100%);
+    }
+    .jules:hover{
+      color: hsl(178, 100%, 50%);
+    }
+    .attribution { font-size: 11px; text-align: center; color:hsl(0, 0%, 100%);}
+    .attribution .attribute { color: hsl(228, 45%, 44%); }
+    }
   </style>
 </head>
 <body>
